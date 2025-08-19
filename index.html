@@ -126,29 +126,102 @@
                 <button class="btn small" data-filter="all">전체</button>
                 <button class="btn small" data-filter="2025">2025</button>
                 <button class="btn small" data-filter="2024">2024</button>
-                <button class="btn small" data-filter="conference">Conference</button>
-                <button class="btn small" data-filter="journal">Journal</button>
+                <button class="btn small" data-filter="2023">2023</button>
+                <button class="btn small" data-filter="2022">2022</button>
+                <span class="muted" style="padding:6px 4px">|</span>
+                <button class="btn small" data-filter="conference">국제학회</button>
+                <button class="btn small" data-filter="journal">국제저널</button>
+                <button class="btn small" data-filter="domestic_conference">국내학회</button>
+                <button class="btn small" data-filter="domestic_journal">국내저널</button>
+                <button class="btn small" data-filter="patent">특허</button>
               </div>
             </div>
+          
+          
             <div id="pubList" class="list" style="margin-top:12px">
-              <!-- 예시 항목 1 -->
+          
+          
+              <!-- ======== 국제학회 (International Conference) ======== -->
               <article class="pub" data-year="2025" data-type="conference">
-                <div><strong>[C1]</strong> 홍길동, 김철수, 박영희. <em>Label-efficient Multimodal Learning for Medical Imaging</em>. In <strong>CVPR 2025</strong>.</div>
-                <div class="meta">code: <a href="https://github.com/your-id/your-repo" target="_blank" rel="noopener">GitHub</a> · pdf: <a href="/papers/cvpr25_lemmli.pdf" target="_blank" rel="noopener">paper</a></div>
-                <div class="pub-actions">
-                  <button class="btn small" data-bibtex='@inproceedings{hong2025lemmli,\nauthor={Hong, Gildong and Kim, Chulsoo and Park, Younghee},\ntitle={Label-efficient Multimodal Learning for Medical Imaging},\nbooktitle={CVPR},\nyear={2025}}'>BibTeX 복사</button>
-                  <a class="btn small" href="/post/cvpr25-lemmli.html">요약/슬라이드</a>
-                </div>
-                <div class="tags"><span class="tag">Self-supervised</span><span class="tag">Multimodal</span><span class="tag">Medical</span></div>
+                <div><strong>[C-2025-ICWS]</strong> <strong>Minjae Kim</strong>, Yerim Kim, Junbeom Hur. <em>Follow Your Hidden Traces: Underground Forum-based Darknet Market Sybil Detection</em>. In <strong>IEEE ICWS 2025</strong>, Helsinki, Finland, Jul 7–12, 2025.</div>
+                <div class="meta">keywords: <span class="tag">Darknet</span> <span class="tag">Sybil Detection</span></div>
               </article>
-              <!-- 예시 항목 2 -->
-              <article class="pub" data-year="2024" data-type="journal">
-                <div><strong>[J1]</strong> Hong, G., Kim, C., <em>Robust Test-time Adaptation under Distribution Shift</em>. <strong>TPAMI</strong>, 2024.</div>
-                <div class="meta">preprint: <a href="/papers/tta_preprint.pdf" target="_blank" rel="noopener">arXiv</a></div>
-                <div class="pub-actions">
-                  <button class="btn small" data-bibtex='@article{hong2024tta,\nauthor={Hong, Gildong and Kim, Chulsoo},\ntitle={Robust Test-time Adaptation under Distribution Shift},\njournal={TPAMI},\nyear={2024}}'>BibTeX 복사</button>
-                </div>
-                <div class="tags"><span class="tag">Robustness</span><span class="tag">TTA</span></div>
+          
+          
+              <article class="pub" data-year="2025" data-type="conference">
+                <div><strong>[C-2025-ICOIN]</strong> <strong>Minjae Kim</strong>, Haksu Han, Gyeongsup Lim, Yehyeong Lee, Sanghun Sim, Junbeom Hur. <em>Transferability Analysis of Adversarial Examples in CNN-Based SAR Image Classification</em>. In <strong>ICOIN 2025</strong>, Chiang Mai, Thailand, Jan 15–17, 2025.</div>
+                <div class="meta"><span class="tag">Adversarial</span> <span class="tag">SAR</span></div>
+              </article>
+          
+          
+              <article class="pub" data-year="2022" data-type="conference">
+                <div><strong>[C-2022-ICPR]</strong> Gyeong Sup Lim, <strong>Minjae Kim</strong>, Junbeom Hur. <em>Adversarial Attack on Semantic Segmentation Preprocessed with Super Resolution</em>. In <strong>ICPR 2022</strong>, Montréal, Canada, Aug 21–25, 2022.</div>
+                <div class="meta"><span class="tag">Adversarial</span> <span class="tag">Segmentation</span> <span class="tag">Super-Resolution</span></div>
+              </article>
+          
+          
+              <!-- ======== 국제저널 (International Journal) ======== -->
+              <article class="pub" data-year="2022" data-type="journal">
+                <div><strong>[J-2022-ACCESS]</strong> <strong>Minjae Kim</strong>, Jinhee Lee, Hyunsoo Kwon, Junbeom Hur. <em>Get off of Chain: Unveiling Dark Web Using Multi-layer Bitcoin Address Clustering</em>. <strong>IEEE Access</strong>, Vol. 10, pp. 70078–10091, 2022.6. DOI: 10.1109/ACCESS.2022.3187210</div>
+                <div class="meta">preprint/code: <a href="#" target="_blank" rel="noopener">(추가 시 링크)</a></div>
+              </article>
+          
+          
+              <!-- ======== 국내저널 (Domestic Journal) ======== -->
+              <article class="pub" data-year="2023" data-type="domestic_journal">
+                <div><strong>[DJ-2023-TI]</strong> 한학수, <strong>김민재</strong>, 임경섭, 이예형, 허준범. <em>딥러닝 기반 SAR 표적인식 모델의 적대적 공격에 대한 취약점 분석</em>. <strong>정보처리학회지</strong>, Vol. 30, No. 4, 2023.12.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2022" data-type="domestic_journal">
+                <div><strong>[DJ-2022-KIPS]</strong> <strong>김민재</strong>, 이진희, 허준범. <em>오프체인 데이터를 활용한 비트코인 다계층 휴리스틱</em>. <strong>정보과학회 컴퓨팅의 실제 논문지</strong>, 제28권, 제1호, 2022.1.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2021" data-type="domestic_journal">
+                <div><strong>[DJ-2021-JKIISC]</strong> 이진희, <strong>김민재</strong>, 허준범. <em>다크웹 오프체인 데이터를 이용한 다계층 비트코인 클러스터링 기법</em>. <strong>정보보호학회논문지</strong>, 제31권, 제4호, 2021.8.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2020" data-type="domestic_journal">
+                <div><strong>[DJ-2020-JKIISC]</strong> <strong>김민재</strong>, 김보민, 허준범. <em>적대적 공격에 견고한 Perceptual Ad-Blocker 기법</em>. <strong>정보보호학회논문지</strong>, 제30권, 제5호, 2020.10.</div>
+              </article>
+          
+          
+              <!-- ======== 국내학회 (Domestic Conference) ======== -->
+              <article class="pub" data-year="2023" data-type="domestic_conference">
+                <div><strong>[DC-2023-KSC]</strong> 한학수, <strong>김민재</strong>, 임경섭, 이예형, 허준범. <em>CNN 기반 SAR 이미지 분류 모델의 적대적 예제의 전이성 분석</em>. <strong>KSC 2023</strong>, 부산 벡스코, 2023.12.20–23.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2023" data-type="domestic_conference">
+                <div><strong>[DC-2023-KSC]</strong> <strong>김민재</strong>, 김예림, 허준범. <em>포럼 기반 다크넷 마켓 다중 계정 탐지모델</em>. <strong>KSC 2023</strong>, 부산 벡스코, 2023.12.20–23.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2021" data-type="domestic_conference">
+                <div><strong>[DC-2021-KCC]</strong> <strong>이진희</strong>, <strong>김민재</strong>, 허준범. <em>오프체인 데이터를 활용한 비트코인 다계층 휴리스틱</em>. <strong>KCC 2021</strong>, ICC 제주, 2021.6.23–25.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2021" data-type="domestic_conference">
+                <div><strong>[DC-2021-KCC]</strong> 임경섭, <strong>김민재</strong>, 허준범. <em>초해상화를 이용하는 물체탐지 모델에 대한 적대적 공격</em>. <strong>KCC 2021</strong>, ICC 제주, 2021.6.23–25.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2020" data-type="domestic_conference">
+                <div><strong>[DC-2020-Winter]</strong> <strong>이진희</strong>, <strong>김민재</strong>, 허준범. <em>다크웹 데이터를 이용한 비트코인 트랜잭션 클러스터링 기법</em>. <strong>한국정보보호학회 동계학술대회</strong>, 2020.11.28.</div>
+              </article>
+          
+          
+              <article class="pub" data-year="2020" data-type="domestic_conference">
+                <div><strong>[DC-2020-Summer]</strong> <strong>김민재</strong>, 김보민, 허준범. <em>적대적 공격에 견고한 Perceptual Ad-Blocking 디자인</em>. <strong>한국정보보호학회 하계학술대회</strong>, 2020.7.15.</div>
+              </article>
+          
+          
+              <!-- ======== 특허 (Patents, Domestic) ======== -->
+              <article class="pub" data-year="2025" data-type="patent">
+                <div><strong>[P-2025-등록]</strong> 허준범, 오원준, 양보성, 임경섭. <em>생성 모델을 대상으로 멤버십 추론 공격을 수행하는 방법 및 이를 위한 장치</em>. 등록완료, <strong>10-2779294</strong>, 2025.03.05.</div>
               </article>
             </div>
           </div>
